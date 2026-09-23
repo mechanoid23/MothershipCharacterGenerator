@@ -18,8 +18,7 @@
   "description": "A journal-based character generator for Mothership",
   "authors": [
     {
-      "name": "Naurgul",
-      "discord": "naurgul"
+      "name": "mechanoid23"
     }
   ],
   "packs": [
@@ -57,7 +56,7 @@
       }
     }
   ],
-  "url": "https://github.com/NikolasTzimoulis/MothershipCharacterGenerator",
-  "manifest": "https://raw.githubusercontent.com/NikolasTzimoulis/MothershipCharacterGenerator/refs/heads/master/module.json",
-  "download": "https://github.com/NikolasTzimoulis/MothershipCharacterGenerator/releases/download/1.01/mothership-character-creator.zip"
+  "url": "https://github.com/mechanoid23/MothershipCharacterGenerator",
+  "manifest": "https://raw.githubusercontent.com/mechanoid23/MothershipCharacterGenerator/master/module.json",
+  "download": "https://github.com/mechanoid23/MothershipCharacterGenerator/releases/download/1.0.0/mothership-character-creator.zip"
 }
