@@ -58,5 +58,5 @@
   ],
   "url": "https://github.com/mechanoid23/MothershipCharacterGenerator",
   "manifest": "https://raw.githubusercontent.com/mechanoid23/MothershipCharacterGenerator/master/module.json",
-  "download": "https://github.com/mechanoid23/MothershipCharacterGenerator/archive/refs/heads/master.zip"
+  "download": "https://github.com/mechanoid23/MothershipCharacterGenerator/releases/download/v1.0.2/mothership-character-creator.zip"
 }
