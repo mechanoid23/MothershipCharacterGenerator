@@ -47,6 +47,12 @@ Skills are resolved via `fromUuid()` and added to the actor with `createEmbedded
 
 The macro reads class data from `fvtt_mosh_1e_rwc.items_classes_1e` first, then falls back to `fvtt_mosh_1e_psg.items_classes_1e`.
 
+On completion (both the normal grant path and the early-return path for classes with no configured choices), the macro fires:
+```js
+Hooks.callAll("traaash.skillsChosen", myActor);
+```
+This lets companion modules sequence post-creation steps (e.g. The Company roll in `fvtt_mosh_1e_traaash`) after skills are confirmed rather than concurrently with the skills dialog.
+
 ## Dependencies
 
 - `fvtt_mosh_1e_psg` — required; provides base classes, skills, items, and rolltables

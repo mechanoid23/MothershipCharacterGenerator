@@ -17,7 +17,7 @@
 - **Character Generator Journal** — step-by-step character creation journal with embedded macro buttons
 - **Character Generator Macros** — macros for each creation step:
   - Per-class macros (Marine, Scientist, Teamster, Android, …) that set stats, grant base skills, and roll loadout
-  - **Choose Skills** — player-facing dialog for selecting `choose_skill_and` (free picks from class skill pool) and `choose_skill_or` (pick one option group) skills; adds selected skills directly to the character sheet
+  - **Choose Skills** — player-facing dialog for selecting `choose_skill_and` (free picks from class skill pool) and `choose_skill_or` (pick one option group) skills; adds selected skills directly to the character sheet. Fires `Hooks.callAll("traaash.skillsChosen", actor)` on completion so companion modules (e.g. `fvtt_mosh_1e_traaash`) can sequence post-creation steps after skills are confirmed.
 - **Character Generator Tables** — supporting rolltables
 
 ![screenshot1](https://i.imgur.com/lIS3sww.png)
